@@ -34,7 +34,7 @@ The contact form connects to a **Java Servlet + JDBC backend** which stores subm
 
 ## 📷 Screenshot
 
-![Portfolio Website Screenshot](https://github.com/user-attachments/assets/a5d444b9-2a0a-4923-a35d-4f670aa7b901)
+<img width="2490" height="4114" alt="exorxis github io_Portfolio_" src="https://github.com/user-attachments/assets/78ca5a3f-b782-4422-a39d-1332278bbaf6" />
 
 > 📸 Full desktop view of the portfolio website
 
