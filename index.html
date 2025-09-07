@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Alok Verma</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/208K6yT/A125E/sK5K6c8c4n7f5V8a6yA6E5Jt6A9FwK/45f8f/6f8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav class="navbar">
       <div class="logo">exor</div>
       <div class="links">
-        <a href="#hero-head">Home</a>
+        <a href="#hero">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact Me</a>
+        <a href="#footer">Contact Me</a>
       </div>
     </nav>
 
@@ -31,11 +32,11 @@
           <h1>i'm exorxis</h1>
           <h2>Java Developer</h2>
           <p>Hey I'm Alok Verma (a.k.a. ExorXis), an MCA student and Java backend enthusiast, passionate about building clean, scalable solutions. With a foundation in Core Java and DSA, and an ongoing journey into Spring and databases, I aim to grow as a full-stack developer. I enjoy solving problems through code and turning ideas into meaningful software.</p>
-          <a href="#contact" class="btn">Hire Me</a>
+          <a href="#footer" class="btn">Hire Me</a>
         </div>
-      </section>    
-      
-      <section id="about">
+    </section>
+
+    <section id="about">
         <div class="about-me">
           <h1>About Me</h1>
         </div>
@@ -50,9 +51,9 @@
                 <li>Sketching</li>
             </ul>
         </div>
-      </section>
+    </section>
 
-      <section id="skills">
+    <section id="skills">
         <h1 class="my-skills">My Skills</h1>
         <div class="skill-grid">
           <div class="skill-card">Java</div>
@@ -65,9 +66,9 @@
           <div class="skill-card">Git</div>
           <div class="skill-card">GitHub</div>
         </div>
-      </section>
+    </section>
 
-      <section id="projects">
+    <section id="projects">
         <h2>Projects</h2>
 
         <div class="cards">
@@ -85,20 +86,25 @@
             <a href="https://github.com/ExorXis/Quiz-Console-App">View on GitHub</a>
           </div>
         </div>
-      </section>
+    </section>
 
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="#" method="post">
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-      </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Feel free to connect with me!</p>
+      <div class="contact-backend-info">
+        <p class="check-it">I also built a backend for this contact form using Java Servlets and SQL. Check it out on GitHub.</p>
+        <a href="https://github.com/ExorXis/Portfolio-Backend-Servlet" target="_blank" class="backend-link"><i class="fa-solid fa-code"></i> View Backend on GitHub</a>
+      </div>
+    </section>
 
-      <footer class="footer">
-        <p>&copy; 2025 ExorXis. All rights reserved.</p>
+    <footer id= "footer" class="footer">
+      <div class="social-icons">
+        <a href="mailto:alokverma1.rtk@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://github.com/ExorXis" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/alokverma18" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/alokverma.dev/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p>&copy; 2025 ExorXis. All rights reserved.</p>
     </footer>
 </body>
 </html>
